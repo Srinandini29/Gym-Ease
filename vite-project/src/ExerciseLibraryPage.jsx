@@ -49,7 +49,7 @@ const ExerciseLibraryPage = () => {
   );
 
   return (
-    <div className="relative min-h-screen bg-[url('bgg.avif')] bg-cover bg-center ">
+    <div className="relative min-h-screen bg-[url('/src/bgg.avif')] bg-cover bg-center ">
       {/* Header Section */}
       <section className="py-16  text-white dark:text-black ">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center ">
