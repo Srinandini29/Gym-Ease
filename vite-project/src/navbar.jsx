@@ -16,7 +16,7 @@ function Navbar({ theme, handleThemeSwitch }) {
           <div className="flex-shrink-0 flex items-center ml-0 sm:ml-0"> 
             <Link to="/" className="flex items-center"> 
               <img
-                src="logo6.png" // Replace with the actual path to your logo
+                src="/src/assets/logo6.png" // Replace with the actual path to your logo
                 alt="Logo"
                 className="h-14 object-contain" // Adjust the size as needed
               />
