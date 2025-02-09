@@ -53,7 +53,7 @@ const Dashboard = () => {
       <div
         className={`${darkMode ? "text-white" : "text-black"} min-h-screen transition-colors duration-500`}
         style={{
-          backgroundImage: `url("per.avif")`, // Replace with your actual image path
+          backgroundImage: `url("dashbgrnd.webp")`, // Replace with your actual image path
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
