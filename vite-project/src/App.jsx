@@ -5,7 +5,7 @@ import Login from './Login';
 import Navbar from './navbar'; // Import Navbar component
 import SignUp from './Signup';
 import Payment from './payment';
-import Contact from './Contact';
+import Contact from './contact';
 import Schedule from './Schedule';
 import Dashboard from './dashboard';
 import ExerciseLibraryPage from './ExerciseLibraryPage';
