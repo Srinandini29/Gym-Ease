@@ -28,28 +28,28 @@ function Navbar({ theme, handleThemeSwitch }) {
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-2xl hover:text-yellow-300 ml-10" onClick={handleMenuClose}>
+            <Link to="/" className="text-xl hover:text-yellow-300 ml-10" onClick={handleMenuClose}>
               Home
             </Link>
-            <Link to="/schedule" className="text-2xl hover:text-yellow-300" onClick={handleMenuClose}>
+            <Link to="/schedule" className="text-xl hover:text-yellow-300" onClick={handleMenuClose}>
               Schedule
             </Link>
-            <Link to="/ExerciseLibraryPage" className="text-2xl hover:text-yellow-300" onClick={handleMenuClose}>
-              Exercise Library
+            <Link to="/ExerciseLibraryPage" className="text-xl hover:text-yellow-300" onClick={handleMenuClose}>
+             Library
             </Link>
             <Link to="/NutritionPlanPage" className="text-xl hover:text-yellow-300" onClick={handleMenuClose}>
-              Nutrition Plan
+              Nutrition 
             </Link>
-            <Link to="/payment" className="text-2xl hover:text-yellow-300" onClick={handleMenuClose}>
+            <Link to="/payment" className="text-xl hover:text-yellow-300" onClick={handleMenuClose}>
               Membership
             </Link>
-            <Link to="/dashboard" className="text-2xl hover:text-yellow-300" onClick={handleMenuClose}>
+            <Link to="/dashboard" className="text-xl hover:text-yellow-300" onClick={handleMenuClose}>
              Dashboard
             </Link>
-            <Link to="/contact" className="text-2xl hover:text-yellow-300" onClick={handleMenuClose}>
-              Contact Us
+            <Link to="/contact" className="text-xl hover:text-yellow-300" onClick={handleMenuClose}>
+              Contact 
             </Link>
-            <Link to="/login" className="text-2xl hover:text-yellow-300" onClick={handleMenuClose}>
+            <Link to="/login" className="text-xl hover:text-yellow-300" onClick={handleMenuClose}>
               Login
             </Link>
             <button
@@ -87,16 +87,16 @@ function Navbar({ theme, handleThemeSwitch }) {
               Schedule
             </Link>
             <Link to="/ExerciseLibraryPage" className="text-xl hover:text-yellow-300 dark:hover:text-yellow-400" onClick={handleMenuClose}>
-              Exercise Library
+               Library
             </Link>
             <Link to="/NutritionPlanPage" className="text-xl hover:text-yellow-300 dark:hover:text-yellow-400" onClick={handleMenuClose}>
-              Nutrition Plan
+              Nutrition
             </Link>
             <Link to="/payment" className="text-xl hover:text-yellow-300 dark:hover:text-yellow-400" onClick={handleMenuClose}>
               Membership
             </Link>
             <Link to="/contact" className="text-xl hover:text-yellow-300 dark:hover:text-yellow-400" onClick={handleMenuClose}>
-              Contact Us
+              Contact
             </Link>
             <Link to="/login" className="text-xl hover:text-yellow-300 dark:hover:text-yellow-400" onClick={handleMenuClose}>
               Login

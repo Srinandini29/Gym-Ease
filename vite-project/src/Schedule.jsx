@@ -166,7 +166,7 @@ const Schedule = () => {
             options={workoutOptions}
             value={selectedWorkouts}
             onChange={handleWorkoutChange}
-            className="w-full transition-transform transform hover:scale-105"
+            className=" w-full  transition-transform  transform  hover:scale-105"
             placeholder="Select workouts"
           />
         </div>
@@ -195,7 +195,9 @@ const Schedule = () => {
             Save Schedule
           </button>
         </div>
+      
       </div>
+     
     </div>
   );
 };
