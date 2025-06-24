@@ -42,7 +42,7 @@ const NutritionPlanPage = () => {
     <div
       className="min-h-screen bg-cover bg-center p-6"
       style={{
-        backgroundImage: "url('src/assets/food.gif')",
+        backgroundImage: "url('/src/food.gif')",
         backgroundSize: "cover",
         backgroundPosition: "center center",
       }}

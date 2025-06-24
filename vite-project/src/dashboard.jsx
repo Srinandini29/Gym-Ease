@@ -18,7 +18,7 @@ const Dashboard = () => {
   ];
 
   const workoutFeed = [
-    { user: "Alex Turner", profilePic: "post3.jpeg", text: "30-day fitness challenge!", image: "gympos.jpg" },
+    { user: "Alex Turner", profilePic: "post3.jpeg", text: "30-day fitness challenge!", image: "/src/gympos.jpg" },
     { user: "Chris Evans", profilePic: "post4.jpg", text: "Just completed a 10K run!", image: "post6.webp" },
   ];
 
